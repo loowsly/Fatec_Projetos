@@ -1,4 +1,4 @@
-        //confesso, odiei portugol, ainda bem que é só para a lógica de programação
+//confesso, odiei portugol, ainda bem que é só para a lógica de programação
 
 programa {
     funcao inicio() {
