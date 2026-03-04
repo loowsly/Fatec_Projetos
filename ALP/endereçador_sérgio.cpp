@@ -18,7 +18,7 @@
 int main() {
     setlocale(LC_ALL, "pt_BR.UTF-8");
     void* espaco_alocado[10];
-    int qtd = 0;   /*
+    int qtd = 0;    /*
                     curiosamente, se aqui for maior que espaco_alocado, ele nao executa, pois o programa tenta acessar
                     um valor que não foi alocado, ou seja, sem permissão existente, causando o que chamam de segmentation fault,
                     https://pt.stackoverflow.com/questions/177185/o-que-%C3%A9-segmentation-fault <- uma bela explicação 
@@ -53,7 +53,7 @@ int main() {
     printf("\n===== Listinha =====\n");
     for (int var_id = 0; var_id < qtd; var_id++) {
         printf("Variável: %d | Endereço: 0x%p | Dado: %d\n", var_id, espaco_alocado[var_id], *(int*)espaco_alocado[var_id]);
-        // delete() irmao mais novo do free()
+        // delete() irmao mais novo do free(), C++
         // free() é engraçado, e tbm velho, foi substituido junto com o malloc pelo new e delete
         /*
         frescura aqui, mas pra fins estudantis, um programa ao ser fechado, geralmente a ram é liberada
