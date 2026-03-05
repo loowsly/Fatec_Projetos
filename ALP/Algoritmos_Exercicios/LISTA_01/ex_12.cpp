@@ -5,7 +5,9 @@
 
 int main(){
     setlocale(LC_ALL, "pt_BR.UTF-8");
+
     float fahrenheit, celsius;
+    
     printf("==== Calcular a temperatura em Celsius ====\n");
     printf("Digite a temperatura em Fahrenheit: ");
     scanf("%f", &fahrenheit);
