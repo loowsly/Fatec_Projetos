@@ -1,0 +1,21 @@
+Sistemas Operacionais I
+
+ROOT -> Raíz das pastas
+A: -> Floppy Disk
+MBR -> Master Boot Record
+
+Parametros:
+/ -> Separa
+/? -> Ajuda
+* -> Busca por prefixo/sufixo
+
+
+DIR -> Mostra todos os diretórios
+CLS - > Limpa a tela do prompt
+TYPE -> Digita o conteudo de um arquivo
+CD - Abre um Diretório
+MD -> Cria um Diretório
+RD -> Remove Diretório
+DEL -> Remove arquivo
+VER -> Número da versão
+VOL -> Volume da unidade do SO
