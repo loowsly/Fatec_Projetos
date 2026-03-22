@@ -1,5 +1,5 @@
-# Fatec_Projetos
-Projetos durante a faculdade
+# Fatec Projetos
+Projetos durante a faculdade, portfolio? talvez.
 
 ## 1° semestre de ADS
 Algoritmos e Linguagem de Programação  
